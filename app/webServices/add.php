@@ -30,22 +30,13 @@ if( isset($_GET["nom"]) && isset($_GET["age"]) )
 		
 	}
 	
-		
-}
+	}
 else
 {
 	$response["success"]=0;
 	$response["message"]="required field is missing";
 	
 	echo json_encode($response);	
-	
-	
 }
-
-
-
-
-
-
 
 ?>
